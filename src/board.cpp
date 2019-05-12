@@ -1,7 +1,9 @@
 #include "board.hpp"
 #include "board_print_plain.hpp"
+#include <cmath>
 #include <iomanip>
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
