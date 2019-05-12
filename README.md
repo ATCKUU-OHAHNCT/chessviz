@@ -1,2 +1,2 @@
 # chessviz
-typa chess
+I ate chess
