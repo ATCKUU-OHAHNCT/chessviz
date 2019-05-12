@@ -1,7 +1,4 @@
-all: bin/chessviz kek
-
-kek:
-	./bin/chessviz
+all: bin/chessviz 
 
 bin/chessviz: build/src/main.o build/src/board_print_plain.o build/src/board.o
 	g++ -Wall -Werror build/src/main.o build/src/board_print_plain.o build/src/board.o -o bin/chessviz
