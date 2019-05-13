@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <iostream>
 #include <stdio.h>
+#include <vector>
 
 using namespace std;
 
@@ -35,6 +36,7 @@ void metamorphosis(int* b)
 // Движение фигуры по шахматной доске
 void move(int* b) //формат движения е2-е4
 {
+    vector<vector<char>> arr(8, vector<char>(8, ' '));
     /*cout << "\n\n\n"
          << "b[3] = " << b[3] << "\nb[4] = " << b[4];
     cout << "\n\n\n"
