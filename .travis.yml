@@ -1,4 +1,4 @@
 dist: xenial
-language: cpp
-compiler : g++
+language: c
+compiler : gcc
 script: make && git ls-files src/ | xargs clang-format -i && git diff --exit-code
